@@ -9,6 +9,13 @@ body {
     font-size: 20px;
 }
 
+.img {
+    background-size: 100% 100%;
+    width: 100px;
+    height: 200px;
+    background-image: url("../images/kakashi.png");
+}
+
 .core-info {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -61,7 +68,7 @@ body {
 }
 
 .boost_0 {
-    background-color: rgb(133, 226, 124);
+    background-color: rgb(25, 116, 60);
     padding: 0px 15px 0px 15px;
     border:solid 3px black;
     border-radius: 10px;
@@ -69,7 +76,7 @@ body {
 }
 
 .boost_1 {
-    background-color: rgb(102, 231, 221);
+    background-color: rgb(11, 73, 143);
     padding: 0px 15px 0px 15px;
     border:solid 3px black;
     border-radius: 10px;

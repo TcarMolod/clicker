@@ -14,12 +14,12 @@
 
         <div class="container"> 
             <div id='coins'>{{core.coins}}</div>
-            <button onclick="call_click()">Мощь</button>
+            <button class="img" onclick="call_click()">Мощь</button>
             <p class="click_power">
                 Твоя СИЛА: <span id="click_power">{{ core.click_power }}</span>
             </p>
             <p class="click_power"> 
-                Твои РАБОТНИКИ: <span id="auto_click_power">{{ core.auto_click_power }}</span> 
+                Твои СОРАТНИКИ: <span id="auto_click_power">{{ core.auto_click_power }}</span> 
             </p>
         </div> 
 
@@ -27,7 +27,7 @@
             <h3 class="clickpower">Апгрейды</h3>
             <div class="boosts-holder" id="boosts-holder">
                 {% for boost in boosts %}
-                    <button class="boost{{boost.type}} boostik" id="boost_{{boost.id}}" onclick="buy_boost({{boost.id}})">
+                    <button class="boost{{boost.type}} boost" id="boost_{{boost.id}}" onclick="buy_boost({{boost.id}})">
                         <p class="lvl">lvl: <span id="boost_level">{{boost.level}}</span></p>
 
                         <p class="power">+<span id="boost_power">{{boost.power}}</span></p>

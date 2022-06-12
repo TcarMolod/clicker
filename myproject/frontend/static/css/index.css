@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Comic Sans";
+    src: url(../fonts/ComicSansMS.ttf);
+}
+
+body {
+    background-color: white;
+    font-family: "Comic Sans";
+    font-size: 20px;
+}
+
+.core-info {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+.city {
+    display: inline-block;
+    color: #5578ec;
+}
+
+.name {
+    display: inline-block;
+    color: #ce2ace;
+}
+
+.logout {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.app {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 10% 0% 0% 10%;
+}
+
+.coins {
+    height: 50%;
+    cursor: pointer;
+}
+
+.boosts {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100%;
+}
+
+.boost_0 {
+    background-color: rgb(133, 226, 124);
+    padding: 0px 15px 0px 15px;
+    border:solid 3px black;
+    border-radius: 10px;
+    font-family: "Comic Sans";
+}
+
+.boost_1 {
+    background-color: rgb(102, 231, 221);
+    padding: 0px 15px 0px 15px;
+    border:solid 3px black;
+    border-radius: 10px;
+    font-family: "Comic Sans";
+}
+
+a {
+    padding: 15px 10px 15px 10px;
+    font-family: "Comic Sans";
+    text-decoration: none;
+    background-color: white;
+    border:solid 3px black;
+    border-radius: 10px;
+    margin: 5% 78% 0% 0%;
+    font-size: 15px;
+}
+
+a:hover {
+    border-color: #173596;
+    color:black;
+}
+
+a:active {
+    background-color: rgb(143,193,240  );
+    color:white;
+}

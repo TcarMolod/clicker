@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Comic Sans";
+    src: url(../fonts/ComicSansMS.ttf);
+}
+
+body {
+    font-family: "Comic Sans";
+    font-size: 20px;
+    background-image: url(../images/shararam.jpg);
+    background-size: cover;
+    color:white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+}
+
+form {
+    text-align: center;
+}
+
+input, a {
+    background-color: white;
+    border:solid 3px black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type='text'], input[type='password'] {
+    width:25%;
+    padding: 15px 10px 15px 10px;
+    color: black;
+    font-family: "Comic Sans";
+}
+
+input[type='submit'], a {
+    padding: 15px 10px 15px 10px;
+    font-family: "Comic Sans";
+}
+
+input[type='text']:hover, input[type='password']:hover {
+    border-color:#173596;
+}
+
+input[type='submit']:hover, a:hover {
+    border-color: #173596;
+    color:black;
+}
+
+input[type='submit']:active, a:active {
+    background-color: rgb(143, 193, 240);
+    color:white;
+}
+
+.error {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
